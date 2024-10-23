@@ -1,0 +1,75 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background-color: blue;
+}
+
+#cabecalho .nav .nav-link.active {
+    color: blue;
+    background-color: #fff;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}
+
+.section-title {
+    font-family: pacifico, cursive;
+}
+
+.text-colored {
+    color: blue;
+}
+
+.nav-link.active,
+#fale-conosco button {
+    background-color: blue;
+    color: #fff;
+}
+
+.nav-link-hover {
+    color: blue;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .carousel-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+@media (min-width: 769px) {
+    .carousel-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+@media (min-width: 1281px) {
+    .carousel-item img {
+        width: 100%;
+        height: 100%;
+        max-height: 710px;
+        object-fit: cover;
+    }
+}
